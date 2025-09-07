@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+env/
+.laminitis-venv/
+
+# Streamlit
+.streamlit/
+
+# Secrets (do NOT commit API keys)
+Streamlit/openai_api_key.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
